@@ -94,10 +94,67 @@
 //   console.log("Better luck next time");
 // }
 
-let str = "aaa";
+// let str = "aaa";
 
-if((str[0] === "a") && (str.length >=3 ) || !false){
-  console.log("True")
-}else {
-  console.log("false");
+// if((str[0] === "a") && (str.length >=3 ) || !false){
+//   console.log("True")
+// }else {
+//   console.log("false");
+// }
+
+// let num = 12;
+
+// if((num%3 === 0) && ((num+1 === 15) || (num-1 === 11) ) ) {
+//   console.log("safe");
+// }else{
+//   console.log("unsafe");
+// }
+
+let color = "yellow";
+
+// switch(color){
+//   case "red" :
+//       console.log("stop");
+//       break;
+//   case "yellow" :
+//       console.log("slow");
+//       break;
+//   case "green" :
+//       console.log("go");
+//       break;
+//   default :
+//       console.log("light broken");      
+// }
+
+
+
+let day = prompt("Enter the day : ");
+console.log(day);
+
+
+switch(day){
+  case 1 :
+    console.log("Monday");
+    break;
+  case 2 :
+    console.log("Tuesday");
+    break;
+  case 3 :
+    console.log("Wednesday");
+    break;
+  case 4 :
+    console.log("Thursday");
+    break;
+  case 5:
+    console.log("Friday");
+    break;
+  case 6 :
+    console.log("Satarday");
+    break;
+  case 7 :
+    console.log("Sunday");
+    break;
+  default :
+  console.log("unknowne");      
 }
+
