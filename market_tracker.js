@@ -128,33 +128,36 @@ let color = "yellow";
 
 
 
-let day = prompt("Enter the day : ");
-console.log(day);
+// let day = prompt("Enter the day : ");
+// console.log(day);
 
 
-switch(day){
-  case 1 :
-    console.log("Monday");
-    break;
-  case 2 :
-    console.log("Tuesday");
-    break;
-  case 3 :
-    console.log("Wednesday");
-    break;
-  case 4 :
-    console.log("Thursday");
-    break;
-  case 5:
-    console.log("Friday");
-    break;
-  case 6 :
-    console.log("Satarday");
-    break;
-  case 7 :
-    console.log("Sunday");
-    break;
-  default :
-  console.log("unknowne");      
-}
+// switch(day){
+//   case 1 :
+//     console.log("Monday");
+//     break;
+//   case 2 :
+//     console.log("Tuesday");
+//     break;
+//   case 3 :
+//     console.log("Wednesday");
+//     break;
+//   case 4 :
+//     console.log("Thursday");
+//     break;
+//   case 5:
+//     console.log("Friday");
+//     break;
+//   case 6 :
+//     console.log("Satarday");
+//     break;
+//   case 7 :
+//     console.log("Sunday");
+//     break;
+//   default :
+//   console.log("unknowne");      
+// }
 
+let firstName = prompt("Enter firstname");
+let lastName  = prompt("Enter lastName");
+console.log("welcome" , firstName , lastName)
