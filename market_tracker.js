@@ -94,3 +94,10 @@
 //   console.log("Better luck next time");
 // }
 
+let str = "aaa";
+
+if((str[0] === "a") && (str.length >=3 ) || !false){
+  console.log("True")
+}else {
+  console.log("false");
+}
