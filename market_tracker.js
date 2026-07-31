@@ -229,14 +229,56 @@
 //   console.log(b, "is largest");
 // }
 
-let a = 200;
-let b = 15;
-let c = 190;
+// let a = 200;
+// let b = 15;
+// let c = 190;
 
-if(a >= b && a >= c){
-  console.log(a,"is largest")
-}else if(b >= a && b >= c){
-  console.log(b, "is largest");
-}else{
-  console.log( c,"is largest")
+// if(a >= b && a >= c){
+//   console.log(a,"is largest")
+// }else if(b >= a && b >= c){
+//   console.log(b, "is largest");
+// }else{
+//   console.log( c,"is largest")
+// }
+
+// let a = 18;
+// let b = 15;
+// let c = 190;
+
+// if(a >= b && a >= c){
+//   console.log("a is large number");
+// }else if(b >= a && b>=c){
+//   console.log("b is large");
+
+// }else{
+//   console.log("c is large");
+// }
+
+// let a = 56;
+// let b = 65;
+// let c = 7;
+
+// if(a<=b && a <= c){
+//   console.log("a is smallest");
+// }else if(b <= a && b <= c){
+//   console.log("b is smallest");
+// }else{
+//   console.log("c is smallest");
+// }
+
+// let a = 67;
+// let b = 89;
+// let c = 90; 
+
+
+let a = 25;
+let b = 40;
+let c = 30;
+
+if ((a > b && a < c) || (a < b && a > c)) {
+    console.log(a);
+} else if ((b > a && b < c) || (b < a && b > c)) {
+    console.log(b);
+} else {
+    console.log(c);
 }
