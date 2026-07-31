@@ -96,7 +96,7 @@
 
 // let str = "aaa";
 
-// if((str[0] === "a") && (str.length >=3 ) || !false){
+// if((str[0] === "a") && (str.length >=3 )){
 //   console.log("True")
 // }else {
 //   console.log("false");
@@ -110,7 +110,7 @@
 //   console.log("unsafe");
 // }
 
-let color = "yellow";
+// let color = "yellow";
 
 // switch(color){
 //   case "red" :
@@ -128,7 +128,7 @@ let color = "yellow";
 
 
 
-// let day = prompt("Enter the day : ");
+// let day = 2 ;
 // console.log(day);
 
 
@@ -158,6 +158,85 @@ let color = "yellow";
 //   console.log("unknowne");      
 // }
 
-let firstName = prompt("Enter firstname");
-let lastName  = prompt("Enter lastName");
-console.log("welcome" , firstName , lastName)
+// let firstName = prompt("Enter firstname");
+// let lastName  = prompt("Enter lastName");
+// console.log("welcome :" , firstName , lastName)
+
+// let num = 98;
+// if (num%10 === 0){
+//   console.log("good");
+// }else{
+//   console.log("bad")
+// }
+
+// let name = prompt("enter name");
+// let age = prompt("enter age");
+// console.log(`your name is : ${name} Your age is : ${age}`)
+
+
+// let quarter = 8;
+
+// switch(quarter){
+//   case 1 :
+//     console.log("Months in Quarter 1: January, February, March");
+//   break;
+//   case 2 :
+//     console.log("Months in Quarter 2: April, May, June");
+//   break;
+//   case 3 :
+//     console.log("Months in Quarter 3: July , August, September ");
+//   break;
+//   case 4 :
+//     console.log(" Months in Quarter 4: October, November, December");
+//   break;
+//   default :
+//   console.log("wrong enter")
+// }
+
+// let str = "lmairy";
+
+// if((str[0] ==="A" || str[0] ==="a") && (  str.length > 5) ){
+//   console.log("Golden string");
+// }else{
+//   console.log("Bad string");
+// }
+
+// let a = 18;
+// let b = 15;
+// let c = 190;
+
+// if(a > b){
+//   if(a > c){
+//     console.log(a ,"is largest");
+//   }else{
+//     console.log(c ,"is largest");
+//   }
+// }else{
+//   if(b > a){
+//     console.log(b,"is largest");
+//   }else {
+//     console.log(c, "is largest");
+//   }
+// }
+
+// let a = 18;
+// let b = 90;
+// // let c = 190;
+
+// if(a > b){
+//   console.log(a , "is largest");
+// }else{
+//   console.log(b, "is largest");
+// }
+
+let a = 200;
+let b = 15;
+let c = 190;
+
+if(a >= b && a >= c){
+  console.log(a,"is largest")
+}else if(b >= a && b >= c){
+  console.log(b, "is largest");
+}else{
+  console.log( c,"is largest")
+}
