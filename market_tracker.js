@@ -306,6 +306,22 @@
 
 // let msg = "  Hell o World ";
 
-let password = prompt("Enter your password");
-let newPassword = password.toLowerCase();
-console.log(newPassword);
+// let password = prompt("Enter your password");
+// let newPassword = password.toLowerCase();
+// console.log(newPassword);
+
+// let str = "   ilovecoding   ";
+// let newStr = str.indexOf("coding");
+// console.log(newStr);
+
+// let newMsg = str.trim().toUpperCase();
+// console.log(newMsg);
+
+// let msg = "help"
+
+// let nMsg = msg.trim().toUpperCase();
+
+let name = "ApnaCollege";
+
+let newName = name.slice(4).replace("l", "t");
+console.log(newName);
