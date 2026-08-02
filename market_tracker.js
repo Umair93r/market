@@ -271,14 +271,41 @@
 // let c = 90; 
 
 
-let a = 25;
-let b = 40;
-let c = 30;
+// let a = 25;
+// let b = 40;
+// let c = 30;
 
-if ((a > b && a < c) || (a < b && a > c)) {
-    console.log(a);
-} else if ((b > a && b < c) || (b < a && b > c)) {
-    console.log(b);
-} else {
-    console.log(c);
-}
+// if ((a > b && a < c) || (a < b && a > c)) {
+//     console.log(a);
+// } else if ((b > a && b < c) || (b < a && b > c)) {
+//     console.log(b);
+// } else {
+//     console.log(c);
+// }
+
+
+// let num = 10;
+
+// if(num %2 === 0){
+//   console.log("divisible");
+// }else{
+//   console.log("not divisible");
+// }
+
+// let a = 500;
+// let b = 54;
+// let c = 400;
+
+// if(a > b && a > c){
+//   console.log("a")
+// }else if(b > a && b > c){
+//   console.log("b");
+// }else{
+//   console.log("c");
+// }
+
+// let msg = "  Hell o World ";
+
+let password = prompt("Enter your password");
+let newPassword = password.toLowerCase();
+console.log(newPassword);
