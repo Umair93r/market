@@ -321,7 +321,13 @@
 
 // let nMsg = msg.trim().toUpperCase();
 
-let name = "ApnaCollege";
+// let name = "ApnaCollege";
 
-let newName = name.slice(4).replace("l", "t");
-console.log(newName);
+// let newName = name.slice(4).replace("l", "t");
+// console.log(newName);
+
+let students = ["zaid", "umair", "haris", "aman"];
+let nums = [2, 5, 9, 8, 8, 454, 7];
+let months = ["january", "july", "March", "August"];
+let primary = ["red", "yellow", "blue"];
+let secondary = ["orange", "Green", "Violet"];
