@@ -326,15 +326,63 @@
 // let newName = name.slice(4).replace("l", "t");
 // console.log(newName);
 
-let students = ["zaid", "umair", "haris", "aman"];
-let nums = [2, 5, 9, 8, 8, 454, 7];
-let months = ["january", "july", "March", "August"];
-let primary = ["red", "yellow", "blue"];
-let secondary = ["Orange", "Green", "Violet"];
-let tech = ["c", "c#", "c++", "javascript", "python", "sql", "java"];
+// let students = ["zaid", "umair", "haris", "aman"];
+// let nums = [2, 5, 9, 8, 8, 454, 7];
+// let months = ["january", "july", "March", "August"];
+// let primary = ["red", "yellow", "blue"];
+// let secondary = ["Orange", "Green", "Violet"];
+// let tech = ["c", "c#", "c++", "javascript", "python", "sql", "java"];
 
-console.log(tech.reverse().indexOf("javascript"))
-console.log(tech.indexOf("javascript"))
+// console.log(tech.reverse().indexOf("javascript"))
+// console.log(tech.indexOf("javascript"))
 
 
 // console.log(secondary.sort());
+
+
+// let arr = [[3, 4, 3, 6, 5], [65, 87, 45, 56],[76, 890, 765, 456]];
+// console.log(arr[2][0]);
+
+
+
+// let game =[["x", null, "o"], [null, "x", null], ["o", null, "x"]];
+
+// let num =[4, 5, 7, 9];
+
+
+// console.log(num.pop());
+// console.log(num);
+
+
+
+
+// console.log(num.shift());
+// console.log(num);
+
+
+let str = ["Apple", "Orange", "Banana", "Mango", null];
+
+console.log(str.includes("Papaya"));
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
