@@ -330,4 +330,11 @@ let students = ["zaid", "umair", "haris", "aman"];
 let nums = [2, 5, 9, 8, 8, 454, 7];
 let months = ["january", "july", "March", "August"];
 let primary = ["red", "yellow", "blue"];
-let secondary = ["orange", "Green", "Violet"];
+let secondary = ["Orange", "Green", "Violet"];
+let tech = ["c", "c#", "c++", "javascript", "python", "sql", "java"];
+
+console.log(tech.reverse().indexOf("javascript"))
+console.log(tech.indexOf("javascript"))
+
+
+// console.log(secondary.sort());
