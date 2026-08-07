@@ -360,13 +360,36 @@
 // console.log(num);
 
 
-let str = ["Apple", "Orange", "Banana", "Mango", null];
-
-console.log(str.includes("Papaya"));
-
-
+// let str = ["Apple", "Orange", "Banana", "Mango", null];
+// let newStr = str.toUpperCase();
+// console.log(newStr);
 
 
+// let str = "ApnaCollege"
+
+// console.log(str.slice(4, 11).replace("l", "t"));
+
+
+// let months=["january", "july", "march", "august"];
+
+// console.log(months.indexOf("august"));
+
+
+
+
+//  console.log(months);
+//  console.log(months.shift());
+//  console.log(months);
+//  console.log(months.shift());
+//  console.log(months);
+//  console.log(months.unshift("june"));
+//  console.log(months);
+//  console.log(months.unshift("july"));
+//  console.log(months);
+
+
+
+let numbers = [479, 546, 650, 367, 54, 576, 65, 34, 54, 67, 12, 76, 89, 100, 200, 8789, 567, 500, 765, 899];
 
 
 
@@ -374,6 +397,33 @@ console.log(str.includes("Papaya"));
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+// let largest = numbers [0];
+// let smallest = numbers [0];
+
+// for(let i =1; i < numbers.length; i++){
+//   if(numbers[i] > largest){
+//     largest = numbers[i]
+//   }
+//   if(numbers[i] < smallest){
+//     smallest = numbers[i]
+//   }
+// }
+
+// console.log(largest);
+// console.log(smallest);
 
 
 
