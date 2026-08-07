@@ -389,9 +389,19 @@
 
 
 
-let numbers = [479, 546, 650, 367, 54, 576, 65, 34, 54, 67, 12, 76, 89, 100, 200, 8789, 567, 500, 765, 899];
+// let numbers = [479, 546, 650, 367, 54, 576, 65, 34, 54, 67, 12, 76, 89, 100, 200, 8789, 567, 500, 765, 899];
 
+// let largest = numbers[0];
+// let smallest = numbers[0];
 
+// for(let i = 1; i < numbers.length; i++){
+//   if(numbers[i] > largest){
+//     largest = numbers[i]
+//   }
+//   if(numbers[i] < smallest){
+//     smallest = numbers[i]
+//   }
+// }
 
 
 
@@ -422,8 +432,8 @@ let numbers = [479, 546, 650, 367, 54, 576, 65, 34, 54, 67, 12, 76, 89, 100, 200
 //   }
 // }
 
-// console.log(largest);
-// console.log(smallest);
+console.log(largest);
+console.log(smallest);
 
 
 
