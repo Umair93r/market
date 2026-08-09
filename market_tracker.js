@@ -405,21 +405,6 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 // let largest = numbers [0];
 // let smallest = numbers [0];
 
@@ -432,17 +417,50 @@
 //   }
 // }
 
-console.log(largest);
-console.log(smallest);
+// console.log(largest);
+// console.log(smallest);
+
+// let colors =["Blue", "Orange", "Yellow", "Black", "Purpule", "Red", "Pink"];
+// console.log(colors.sort());
+
+// let months =["january", "july", "march", "august"];
+// console.log(months);
+// console.log(months.splice(0, 2, "july","june"));
+// console.log(months);
+
+
+// let lange = ["c", "c++", "html", "javascript", "python", "java", "c#", "sql"];
+
+// console.log(lange.reverse());
+// console.log(lange.indexOf("javascript"));
 
 
 
+// console.log([1] === [1]);
 
 
+// for(i =10; i <= 5; i++){
+//   console.log(i);
+// }
+// console.log("condition false");
+
+// for(i =1; i <= 15; i= i+2){
+//   console.log(i)
+// }
 
 
+// for(i = 2; i<=10; i=i+2){
+//   console.log(i)
+// }
 
+// let n = prompt("write your number");
+// n = parseInt(n);
 
+// for(let i=n; i<=n*10; i=i+n){
+//   console.log(i);
+// }
 
-
+// for(i =5; i<=50; i=i+5){
+//   console.log(i);
+// }
 
