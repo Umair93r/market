@@ -2,7 +2,27 @@
   "dependencies": {
     "kiteconnect": "^5.3.0",
     "node": "^26.5.0",
+    "prompt-sync": "^4.2.0",
     "ws": "^8.21.1",
     "yahoo-finance2": "^4.0.0"
-  }
+  },
+  "name": "market",
+  "version": "1.0.0",
+  "description": "",
+  "main": "market_tracker.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Umair93r/market.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Umair93r/market/issues"
+  },
+  "homepage": "https://github.com/Umair93r/market#readme"
 }

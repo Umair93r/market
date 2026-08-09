@@ -464,3 +464,50 @@
 //   console.log(i);
 // }
 
+// for(let i =1; i<=3; i++){
+//   console.log(`outer loop ${i}`);
+//   for(let j=1; j<=3; j++){
+//     console.log(j,"inner loop")
+//   }
+// }
+
+// let i =1;
+
+// while( i<=7 ){
+//   console.log(i);
+//   i++
+// }
+
+// let i =1;
+// while( i<=20){
+//   console.log(i);
+//   i=i+2;
+// }
+
+// const favMovie = "avatar";
+
+// let guess = prompt("guess my favrite movie");
+
+// while((guess != favMovie) && (guess !=  "quit")){
+//   guess = prompt("wrong guess. please try again ");
+// }
+
+// if(guess == favMovie){
+//   console.log("congrats")
+// }else{
+//   console.log("you quit")
+// }
+
+
+let fruits = [
+  ["Apple", "Orange", "Banana", "Mango", "Khadoos"],
+  ["pineapple", "watermelon", "papaya"]
+];
+
+for(let i =0; i<fruits.length; i++){
+  console.log(`List # ${i}`);
+  for(let j =0; j<fruits[i].length; j++);{
+    console.log(`j=${j},${fruits[i][j]}`);
+  }
+}
+
