@@ -499,15 +499,136 @@
 // }
 
 
-let fruits = [
-  ["Apple", "Orange", "Banana", "Mango", "Khadoos"],
-  ["pineapple", "watermelon", "papaya"]
-];
+// let fruits = [
+//   ["Apple", "Orange", "Banana", "Mango", "Khadoos"],
+//   ["pineapple", "watermelon", "papaya"]
+// ];
 
-for(let i =0; i<fruits.length; i++){
-  console.log(`List # ${i}`);
-  for(let j =0; j<fruits[i].length; j++);{
-    console.log(`j=${j},${fruits[i][j]}`);
+// for(let i =0; i<fruits.length; i++){
+//   console.log(`List # ${i}`);
+//   for(let j =0; j<fruits[i].length; j++);{
+//     console.log(`j=${j},${fruits[i][j]}`);
+//   }
+// }
+
+// let fruits =[
+//   ["Jackfruit", "strawberry","papaya"],
+//   ["Banana", "Apple", "Orange", "litchi"]
+// ];
+
+// for(let i=0; i<fruits.length; i++){
+//   console.log(i, fruits[i])
+//   for(let j=0; j<fruits[i].length; j++){
+//     console.log(`j=${j}, ${fruits[i][j]}`)
+//   }
+// }
+
+// let students =[["umair", 76],["zaid",65],["haris", 50]];
+
+// for(list of students){
+//    for(student of list){
+//     console.log(student)
+//    }
+// }
+
+
+
+// let todo =[];
+
+// let req = prompt("Enter your request!");
+
+// while (true) {
+//   if(req == "quit"){
+//     console.log("quiting app")
+//     break;
+//   }
+
+//   if(req === "list"){
+//     console.log("----------")
+//   }
+// }
+
+
+// let num =[2, 6, 9, 7, 1, 5, 7, 9, 10];
+
+// for( let i=50; i>=5; i=i-5 ){
+//   console.log(i)
+// }
+// console.log("loop ended")
+
+// for(let i=1; i<=3; i++){
+//   console.log(`outer loop ${i}`);
+//   for(let j=0; j<=3; j++){
+//     console.log(j);
+//   }
+// }
+
+
+
+
+// for(let i=0; i<students.length; i++){
+//   console.log(i,students[i])
+//   for(let j=0; j<students[i].length; j++){
+//     console.log(`j=${j}, ${students[i][j]}`)
+//   }
+// }
+
+
+
+
+// for(let i=0; i<students.length; i++){
+//   console.log(i, students[i]);
+//   for(let j=0; j<students[i].length; j++){
+//     console.log(`j=${j}, ${students[i][j]}`)
+//   }
+// }
+
+
+
+
+
+// for( let i=0; i<fruits.length; i++){
+
+//      console.log(i, fruits[i],"outer");
+
+//   for(let j=0; j<fruits[i].length; j++){
+
+//     console.log(`j=${j}, ${fruits[i][j]}`);
+//   }
+// }
+
+
+// for(let i=fruits.length-1; i>=0; i--){
+//   console.log(i, fruits[i]);
+// }
+// console.log(fruits);
+
+
+let todo =[];
+
+let req = prompt("please enter your request");
+
+while (true) {
+  if(req == "quit"){
+    console.log("exit")
+    break;
   }
-}
 
+  if(req == "list"){
+    console.log("-----------")
+    for(task of todo){
+       console.log(task);
+  
+    }
+      console.log("-----------")
+  }else if(req == "add"){
+     let task = prompt("please enter the task you want to add");
+     todo.push(task);
+     console.log("task added");
+
+
+  }else if(req == "delete"){
+    
+  }
+  
+}
