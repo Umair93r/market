@@ -604,31 +604,57 @@
 // console.log(fruits);
 
 
-let todo =[];
+// let todo =[];
 
-let req = prompt("please enter your request");
+// let req = prompt("please enter your request");
 
-while (true) {
-  if(req == "quit"){
-    console.log("exit")
-    break;
-  }
+// while (true) {
+//   if(req == "quit"){
+//     console.log("exit")
+//     break;
+//   }
 
-  if(req == "list"){
-    console.log("-----------")
-    for(task of todo){
-       console.log(task);
+//   if(req == "list"){
+//     console.log("-----------")
+//     for(task of todo){
+//        console.log(task);
   
-    }
-      console.log("-----------")
-  }else if(req == "add"){
-     let task = prompt("please enter the task you want to add");
-     todo.push(task);
-     console.log("task added");
+//     }
+//       console.log("-----------")
+//   }else if(req == "add"){
+//      let task = prompt("please enter the task you want to add");
+//      todo.push(task);
+//      console.log("task added");
 
 
-  }else if(req == "delete"){
+//   }else if(req == "delete"){
     
-  }
+//   }
   
-}
+// }
+
+
+
+
+// let todo = [];
+// let req = prompt("Enter your task");
+
+//  while(true){
+//   if(req == "quit"){
+//     console.log("quit");
+//     break
+//   }
+//   if(req == "add"){
+//     console.log("----------");
+//     for(task of todo){
+//       console.log(task); 
+//     }
+//   }
+//  }
+
+let student ={
+  name : "Umair",
+  age : 20 ,
+  marks : 70 ,
+  city : "sillod"
+};
