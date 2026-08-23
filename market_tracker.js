@@ -652,9 +652,38 @@
 //   }
 //  }
 
-let student ={
-  name : "Umair",
-  age : 20 ,
-  marks : 70 ,
-  city : "sillod"
+// let student ={
+//   name : "Umair",
+//   age : 20 ,
+//   marks : 70 ,
+//   city : "sillod"
+// };
+
+// const item = {
+//   price : 100,
+//   discount : 50,
+//   colors : ["red", "blue"]
+// };
+
+// let student ={
+//   name : "umair",
+//   marks : 94.4,
+// };
+// console.log(student.marks);
+
+const student ={
+  name : "umair",
+  surname : "rangrez",
+  college : "gamgamai",
+  course : "telecommunication",
+  city : "Sillod",
+  age : 20
 };
+console.log(student.city = "Auarngabad");
+console.log(student);
+console.log(student.gender = "Male");
+console.log(student);
+console.log(student.name = "Zaid")
+console.log(student.name)
+console.log(delete student.name)
+console.log(student)
