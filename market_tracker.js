@@ -665,25 +665,25 @@
 //   colors : ["red", "blue"]
 // };
 
-// let student ={
+// let student9 ={
 //   name : "umair",
 //   marks : 94.4,
 // };
 // console.log(student.marks);
 
-const student ={
-  name : "umair",
-  surname : "rangrez",
-  college : "gamgamai",
-  course : "telecommunication",
-  city : "Sillod",
-  age : 20
-};
-console.log(student.city = "Auarngabad");
-console.log(student);
-console.log(student.gender = "Male");
-console.log(student);
-console.log(student.name = "Zaid")
-console.log(student.name)
-console.log(delete student.name)
-console.log(student)
+// const student7 ={
+//   name : "umair",
+//   surname : "rangrez",
+//   college : "gamgamai",
+//   course : "telecommunication",
+//   city : "Sillod",
+//   age : 20
+// };
+// console.log(student.city = "Auarngabad");
+// console.log(student);
+// console.log(student.gender = "Male");
+// console.log(student);
+// console.log(student.name = "Zaid")
+// console.log(student.name)
+// console.log(delete student.name)
+// console.log(student)
